@@ -16,7 +16,7 @@ export function Details() {
     <S.Container>
       <S.Title>Detalhes {genderIdentify} {firstName}</S.Title>
       {userDetails && <Card name={userDetails.name} age={userDetails.age} gender={userDetails.gender} />}
-      <Button path="/home" label="voltar" />
+      <Button path="/" label="voltar" />
     </S.Container>
   )
 }
