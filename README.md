@@ -80,7 +80,7 @@ $ cd university-db-project
 $ cd backend
 
 # Install dependencies
-$ yarn or npm
+$ yarn or npm i
 
 # Run the project
 $ yarn dev:server or npm run dev:server
@@ -96,7 +96,7 @@ $ cd university-db-project
 $ cd frontend
 
 # Install dependencies
-$ yarn or npm
+$ yarn or npm i
 
 # Run the project
 $ yarn dev or npm run dev
