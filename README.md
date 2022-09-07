@@ -9,13 +9,13 @@
 <h1 align="center">Projeto Banco de Dados I</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/oliveiralecca/rocketseat-nlw-return?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/oliveiralecca/university-db-project?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/oliveiralecca/rocketseat-nlw-return?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/oliveiralecca/university-db-project?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/oliveiralecca/rocketseat-nlw-return?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/oliveiralecca/university-db-project?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/oliveiralecca/rocketseat-nlw-return?color=56BEB8">
+  <!-- <img alt="License" src="https://img.shields.io/github/license/oliveiralecca/university-db-project?color=56BEB8"> -->
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/rocketseat-nlw-return?color=56BEB8" /> -->
 
@@ -38,52 +38,52 @@
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/oliveiralecca" target="_blank">Author</a>
+  <!-- <a href="#memo-license">License</a> &#xa0; | &#xa0; -->
+  <a href="#memo-authors">Authors</a>
 </p>
 
 <br>
 
 ## :dart: About ##
 
-This project was developed on Rocketseat famous event called Next Level Week. On this edition a Widget to send feedbacks was build for Web or Mobile App.
+This project is being developed to partial evaluation from university Database I subject. Initially was made a simple users list and its details.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: &nbsp;Send a comment about a Problem, an Idea or other;\
-:heavy_check_mark: &nbsp;Send a screenshot;\
-:heavy_check_mark: &nbsp;Notify a new feedback received by e-mail;
+:heavy_check_mark: &nbsp;Renders a list of users from backend;\
+:heavy_check_mark: &nbsp;Shows each user details;
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
+- [Vite](https://vitejs.dev/)
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [Node](https://nodejs.org/en/) and [Expo](https://expo.io/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/)  installed.
 
 ## :checkered_flag: Starting ##
 Server
 
 ```bash
 # Clone this project
-$ git clone https://github.com/oliveiralecca/rocketseat-nlw-return
+$ git clone https://github.com/oliveiralecca/university-db-project
 
 # Access
-$ cd rocketseat-nlw-return
-$ cd server
+$ cd university-db-project
+$ cd backend
 
 # Install dependencies
 $ yarn or npm
 
 # Run the project
-$ yarn dev or npm run dev
+$ yarn dev:server or npm run dev:server
 
 # The server will initialize in the <http://localhost:3333>
 ```
@@ -92,8 +92,8 @@ Web
 
 ```bash
 # Access
-$ cd rocketseat-nlw-return
-$ cd web
+$ cd university-db-project
+$ cd frontend
 
 # Install dependencies
 $ yarn or npm
@@ -101,29 +101,18 @@ $ yarn or npm
 # Run the project
 $ yarn dev or npm run dev
 
-# The project will initialize in the <http://localhost:3000>
+# The project will initialize in the <http://localhost:5173>
 ```
 
-Mobile
+<!-- ## :memo: License ##
 
-```bash
-# Access
-$ cd rocketseat-nlw-return
-$ cd mobile
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file. -->
 
-# Install dependencies
-$ yarn or npm
+## :memo: Authors ##
 
-# Run the project
-$ expo start
-```
-
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
-
-
-Made with 💕 by <a href="https://github.com/oliveiralecca" target="_blank">Letícia Oliveira</a>
+- [Letícia Oliveira](https://github.com/oliveiralecca)
+- [Marcos Paulo](https://github.com/mpaullos)
+- [Rodrigo Santana](https://github.com/rodrigodesan)
 
 &#xa0;
 
