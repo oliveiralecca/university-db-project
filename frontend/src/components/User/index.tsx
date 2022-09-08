@@ -7,7 +7,7 @@ type UserProps = {
 }
 
 export function User({ id }: UserProps) {
-  const users = useDataResults();
+  const { users } = useDataResults();
   const user = users?.[id];
 
   return (

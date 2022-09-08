@@ -7,19 +7,20 @@ import { useData, UseDataResult } from '../hooks/useData';
 
 type DataState = {
   users: UseDataResult[];
+  isLoading: boolean;
 }
 
-interface DataProviderProps {
+type DataProviderProps = {
   children: ReactNode;
 }
 
 const DataContext = createContext<DataState | null>(null)
 
 function DataProvider({ children }: DataProviderProps) {
-  const users = useData()
+  const { users, isLoading } = useData()
 
   return (
-    <DataContext.Provider value={{ users }}>
+    <DataContext.Provider value={{ users, isLoading }}>
       {children}
     </DataContext.Provider>
   )
@@ -28,7 +29,9 @@ function DataProvider({ children }: DataProviderProps) {
 function useDataResults() {
   const context = useContext(DataContext)
 
-  return context?.users
+  if (!context) throw new Error('Data context must not be used outside its provider')
+
+  return context
 }
 
-export { DataProvider, useDataResults };
+export { DataContext, DataProvider, useDataResults };

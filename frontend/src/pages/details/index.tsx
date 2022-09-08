@@ -6,7 +6,7 @@ import { Title } from "../../components/Title";
 import { useDataResults } from "../../contexts/dataContext";
 
 export function Details() {
-  const users = useDataResults();
+  const { users } = useDataResults();
   const { user } = useParams();
 
   const userDetails = user ? users?.[+user] : undefined
