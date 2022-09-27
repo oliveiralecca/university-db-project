@@ -26,9 +26,9 @@
 
 <!-- Status -->
 
-<h4 align="center"> 
+<!-- <h4 align="center"> 
 	🚧  Projeto Banco de Dados I 🚀 Under construction...  🚧
-</h4> 
+</h4> -->
 
 <hr>
 
@@ -46,7 +46,7 @@
 
 ## :dart: About ##
 
-This project is being developed to partial evaluation from university Database I subject. Initially was made a simple users list and its details.
+This project was developed to partial evaluation from university Database I subject. Initially was made a simple users list and its details.
 
 ## :sparkles: Features ##
 
